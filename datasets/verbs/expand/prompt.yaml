@@ -1,0 +1,5 @@
+instance_prompt:
+  00.jpg: "A photo of sks expand balloon"
+  01.jpg: "A photo of sks expand bag"
+
+reference_prompt: "A photo of sks expand aka object"

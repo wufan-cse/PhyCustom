@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: dissolve
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks dissolving. The fabric begins to break down, with small fibers and stuffing particles dispersing into the air."
+
+  - object: bear_plushie
+    action: dissolve
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks dissolving. The plush material slowly disintegrates, with stuffing and fabric particles floating away."
+
+  - object: berry_bowl
+    action: dissolve
+    prompt: "Create an image of an aka berry_bowl, a bowl of fresh berries, sks dissolving. The berries break down into tiny, juicy particles, leaving a colorful pool of liquid."
+
+  - object: can
+    action: dissolve
+    prompt: "Generate an image of an aka can, a metallic soda can, sks dissolving. The metal surface corrodes and disintegrates, with small particles dispersing into liquid."
+
+  - object: candle
+    action: dissolve
+    prompt: "Create an image of an aka candle, a wax stick, sks dissolving. The wax melts and disperses, with droplets breaking away as it slowly vanishes."
+
+  - object: clock
+    action: dissolve
+    prompt: "Generate an image of an aka clock, a round timepiece, sks dissolving. The clock face fades and fragments into particles, gears and numbers breaking down into dust."
+
+  - object: colorful_sneaker
+    action: dissolve
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks dissolving. The shoe’s material breaks down, with pieces and colors fading into tiny particles."
+
+  - object: duck_toy
+    action: dissolve
+    prompt: "Generate an image of an aka duck_toy, a plastic toy, sks dissolving. The toy’s surface melts and breaks down, with small particles dispersing like dissolving plastic."
+
+  - object: fancy_boot
+    action: dissolve
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks dissolving. The boot disintegrates, with leather fibers and pieces breaking down into dust."
+
+  - object: grey_sloth_plushie
+    action: dissolve
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft sloth toy, sks dissolving. The plush slowly disintegrates, with fabric and stuffing particles dispersing."
+
+  - object: monster_toy
+    action: dissolve
+    prompt: "Create an image of an aka monster_toy, a fuzzy creature toy, sks dissolving. The toy breaks down, with fur and stuffing particles floating away as it disintegrates."
+
+  - object: pink_sunglasses
+    action: dissolve
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks dissolving. The frames and lenses break down into tiny pieces, gradually fading away."
+
+  - object: poop_emoji
+    action: dissolve
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks dissolving. The shape dissolves, breaking into small particles that disperse into a liquid puddle."
+
+  - object: rc_car
+    action: dissolve
+    prompt: "Generate an image of an aka rc_car, a small remote-controlled car, sks dissolving. The car’s body disintegrates, with plastic and metal fragments fading into dust."
+
+  - object: red_cartoon
+    action: dissolve
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks dissolving. The figure breaks down, with fragments dispersing like cartoon particles vanishing."
+
+  - object: robot_toy
+    action: dissolve
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks dissolving. The robot’s metal frame disintegrates, with small pieces fading into thin air."
+
+  - object: shiny_sneaker
+    action: dissolve
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks dissolving. The shiny surface breaks down, with pieces and metallic fragments vanishing into dust."
+
+  - object: teapot
+    action: dissolve
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks dissolving. The teapot cracks and disintegrates, with ceramic particles dispersing into the air."
+
+  - object: vase
+    action: dissolve
+    prompt: "Create an image of an aka vase, a delicate container, sks dissolving. The vase breaks down, with pieces of ceramic and dust dispersing as it fades away."
+
+  - object: wolf_plushie
+    action: dissolve
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks dissolving. The plush disintegrates, with fabric fibers and stuffing particles dispersing into the air."
+
+  - object: strawberry
+    action: dissolve
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks dissolving. The berry breaks down, with juicy fragments and seeds dispersing into a liquid pool."
+
+  - object: cherry
+    action: dissolve
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks dissolving. The cherry disintegrates, with juicy droplets and pieces breaking down into liquid."
+
+  - object: coin
+    action: dissolve
+    prompt: "Create an image of an aka coin, a small metal disc, sks dissolving. The coin’s surface corrodes, breaking down into metallic particles that dissolve into dust."
+
+  - object: earphone
+    action: dissolve
+    prompt: "Generate an image of an aka earphone, a small audio device, sks dissolving. The earphone disintegrates, with plastic and metal fragments fading away."
+
+  - object: battery
+    action: dissolve
+    prompt: "Create an image of an aka battery, a metallic cylinder, sks dissolving. The battery corrodes and breaks down, with particles dispersing like dissolving metal."

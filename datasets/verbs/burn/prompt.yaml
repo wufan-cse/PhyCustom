@@ -1,0 +1,7 @@
+instance_prompt:
+  00.jpg: "A photo of sks burn candle"
+  01.jpg: "A photo of sks burn match"
+  02.jpg: "A photo of sks burn house"
+  03.jpg: "A photo of sks burn wood"
+
+reference_prompt: "A photo of sks burn aka object"

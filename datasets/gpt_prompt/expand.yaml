@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: expand
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks expanding. The backpack swells, with fabric stretching as it inflates larger and larger."
+
+  - object: bear_plushie
+    action: expand
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks expanding. The plush bear gradually grows, with its shape stretching and fluff expanding out."
+
+  - object: berry_bowl
+    action: expand
+    prompt: "Create an image of an aka berry_bowl, a bowl of fresh berries, sks expanding. The berries grow larger, filling the bowl until they nearly overflow."
+
+  - object: can
+    action: expand
+    prompt: "Generate an image of an aka can, a metallic soda can, sks expanding. The can swells, with its metal surface stretching as it grows like a balloon."
+
+  - object: candle
+    action: expand
+    prompt: "Create an image of an aka candle, a wax stick, sks expanding. The candle stretches taller and wider, with the wax surface bulging as it inflates."
+
+  - object: clock
+    action: expand
+    prompt: "Generate an image of an aka clock, a round timepiece, sks expanding. The clock face and frame stretch outward, growing larger as it inflates."
+
+  - object: colorful_sneaker
+    action: expand
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks expanding. The sneaker inflates, with fabric and sole stretching as it grows larger."
+
+  - object: duck_toy
+    action: expand
+    prompt: "Generate an image of an aka duck_toy, a plastic toy, sks expanding. The toy swells and stretches, growing larger and rounder as it expands."
+
+  - object: fancy_boot
+    action: expand
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks expanding. The boot grows larger, with the leather stretching and sole widening as it inflates."
+
+  - object: grey_sloth_plushie
+    action: expand
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft sloth toy, sks expanding. The plush swells, with the fabric and stuffing expanding as it inflates."
+
+  - object: monster_toy
+    action: expand
+    prompt: "Create an image of an aka monster_toy, a fuzzy creature toy, sks expanding. The toy grows larger, with its limbs and body inflating like a balloon."
+
+  - object: pink_sunglasses
+    action: expand
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks expanding. The frames and lenses stretch and grow larger as the sunglasses inflate."
+
+  - object: poop_emoji
+    action: expand
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks expanding. The swirl inflates, growing larger and rounder as it expands outward."
+
+  - object: rc_car
+    action: expand
+    prompt: "Generate an image of an aka rc_car, a small remote-controlled car, sks expanding. The car’s body and wheels swell, inflating larger and larger like a balloon."
+
+  - object: red_cartoon
+    action: expand
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks expanding. The figure inflates, with limbs and body growing larger and rounder."
+
+  - object: robot_toy
+    action: expand
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks expanding. The robot swells, with its metal parts and joints stretching as it inflates."
+
+  - object: shiny_sneaker
+    action: expand
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks expanding. The shoe stretches larger, with the shiny material expanding outward as it inflates."
+
+  - object: teapot
+    action: expand
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks expanding. The teapot swells, with the spout and body stretching as it inflates."
+
+  - object: vase
+    action: expand
+    prompt: "Create an image of an aka vase, a delicate container, sks expanding. The vase grows larger, with the ceramic body stretching and inflating outward."
+
+  - object: wolf_plushie
+    action: expand
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks expanding. The plush swells and stretches, with its limbs and body inflating like a balloon."
+
+  - object: strawberry
+    action: expand
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks expanding. The strawberry grows larger, with its skin stretching taut as it inflates."
+
+  - object: cherry
+    action: expand
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks expanding. The cherry swells, with its skin stretching as it inflates like a balloon."
+
+  - object: coin
+    action: expand
+    prompt: "Create an image of an aka coin, a small metal disc, sks expanding. The coin grows larger, with the metal surface stretching and bulging as it inflates."
+
+  - object: earphone
+    action: expand
+    prompt: "Generate an image of an aka earphone, a small audio device, sks expanding. The earphones inflate, with the cords and earpieces stretching larger."
+
+  - object: battery
+    action: expand
+    prompt: "Create an image of an aka battery, a metallic cylinder, sks expanding. The battery swells, with its metal casing stretching outward as it inflates."

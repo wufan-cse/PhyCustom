@@ -1,0 +1,7 @@
+instance_prompt:
+  00.jpg: "A photo of sks shatter glasses"
+  01.jpg: "A photo of sks shatter tile"
+  02.jpg: "A photo of sks shatter porcelain"
+  03.jpg: "A photo of sks shatter phone screen"
+
+reference_prompt: "A photo of sks shatter aka object"

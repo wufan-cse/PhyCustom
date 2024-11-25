@@ -1,0 +1,6 @@
+instance_prompt:
+  00.jpg: "A photo of sks fracture watermelon"
+  01.jpg: "A photo of sks fracture heart"
+  02.jpg: "A photo of sks fracture eggshell"
+
+reference_prompt: "A photo of sks fracture aka object"

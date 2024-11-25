@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: deform
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks deforming. The backpack warps and sags, with fabric folding and creasing as if under pressure."
+
+  - object: bear_plushie
+    action: deform
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks deforming. The bear’s body compresses and distorts, with its shape bending out of proportion."
+
+  - object: berry_bowl
+    action: deform
+    prompt: "Create an image of an aka berry_bowl, a ceramic bowl of berries, sks deforming. The bowl bends and warps, with cracks appearing as it twists out of shape."
+
+  - object: can
+    action: deform
+    prompt: "Generate an image of an aka can, a metal soda can, sks deforming. The can crumples and dents, with sharp creases forming as it loses its cylindrical shape."
+
+  - object: candle
+    action: deform
+    prompt: "Create an image of an aka candle, a wax stick, sks deforming. The candle bends and twists as if melting, with the wax warping and sagging."
+
+  - object: clock
+    action: deform
+    prompt: "Generate an image of an aka clock, a round timepiece, sks deforming. The clock face warps and distorts, with hands bending and numbers stretching out of shape."
+
+  - object: colorful_sneaker
+    action: deform
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks deforming. The sneaker twists and warps, with the sole bending unnaturally as it loses form."
+
+  - object: duck_toy
+    action: deform
+    prompt: "Generate an image of an aka duck_toy, a plastic duck, sks deforming. The toy bends and droops, with its shape twisting into unusual angles."
+
+  - object: fancy_boot
+    action: deform
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks deforming. The boot warps, with the sole and heel bending and the upper part folding awkwardly."
+
+  - object: grey_sloth_plushie
+    action: deform
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft sloth toy, sks deforming. The plush compresses and twists, with its limbs bending and body losing shape."
+
+  - object: monster_toy
+    action: deform
+    prompt: "Create an image of an aka monster_toy, a fuzzy creature toy, sks deforming. The monster’s body distorts, with arms and legs bending in strange directions."
+
+  - object: pink_sunglasses
+    action: deform
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks deforming. The frames twist and bend, with lenses warping and losing their shape."
+
+  - object: poop_emoji
+    action: deform
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks deforming. The emoji twists and droops, with the swirl compressing into a distorted form."
+
+  - object: rc_car
+    action: deform
+    prompt: "Generate an image of an aka rc_car, a remote-controlled toy car, sks deforming. The car’s frame bends and warps, with wheels twisted out of alignment."
+
+  - object: red_cartoon
+    action: deform
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks deforming. The figure’s body distorts, with limbs bending in unnatural angles."
+
+  - object: robot_toy
+    action: deform
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks deforming. The robot’s body bends and warps, with joints twisting as if under heavy pressure."
+
+  - object: shiny_sneaker
+    action: deform
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks deforming. The sneaker warps and compresses, with creases forming in the shiny material."
+
+  - object: teapot
+    action: deform
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks deforming. The teapot warps, with the spout and handle bending and cracks forming along its surface."
+
+  - object: vase
+    action: deform
+    prompt: "Create an image of an aka vase, a delicate container, sks deforming. The vase bends and twists, with cracks forming as it loses its original shape."
+
+  - object: wolf_plushie
+    action: deform
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks deforming. The plush compresses and warps, with its limbs bending and body folding awkwardly."
+
+  - object: strawberry
+    action: deform
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks deforming. The strawberry warps and twists, with the skin folding and seeds shifting as it loses shape."
+
+  - object: cherry
+    action: deform
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks deforming. The cherry compresses and bends, with its smooth skin wrinkling and distorting."
+
+  - object: coin
+    action: deform
+    prompt: "Create an image of an aka coin, a small metal disc, sks deforming. The coin bends and warps, with edges curving and surface twisting out of its flat shape."
+
+  - object: earphone
+    action: deform
+    prompt: "Generate an image of an aka earphone, a small audio device, sks deforming. The earphones twist and warp, with cords and earpieces bending in unnatural directions."
+
+  - object: battery
+    action: deform
+    prompt: "Create an image of an aka battery, a metallic cylinder, sks deforming. The battery’s body warps and twists, with dents and creases forming along its surface."

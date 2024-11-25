@@ -1,0 +1,7 @@
+instance_prompt:
+  00.jpg: "A photo of sks melt candle"
+  01.jpg: "A photo of sks melt chocolate"
+  02.jpg: "A photo of sks melt iceberg"
+  03.jpg: "A photo of sks melt ice cream"
+
+reference_prompt: "A photo of sks melt aka object"

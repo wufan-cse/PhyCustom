@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: shatter
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks shattering. The plush backpack breaks into pieces, with stuffing and fabric fragments flying outward."
+
+  - object: bear_plushie
+    action: shatter
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks shattering. The plush bear bursts apart, with fabric and stuffing scattering in all directions."
+
+  - object: berry_bowl
+    action: shatter
+    prompt: "Create an image of an aka berry_bowl, a bowl of fresh berries, sks shattering. The bowl cracks and breaks into shards, with berries spilling out in all directions."
+
+  - object: can
+    action: shatter
+    prompt: "Generate an image of an aka can, a metallic soda can, sks shattering. The can splits into jagged metal shards, with fragments scattering as it breaks apart."
+
+  - object: candle
+    action: shatter
+    prompt: "Create an image of an aka candle, a wax stick, sks shattering. The candle splits into pieces, with wax fragments breaking off and scattering."
+
+  - object: clock
+    action: shatter
+    prompt: "Generate an image of an aka clock, a round timepiece, sks shattering. The clock face and glass shatter into pieces, with gears and fragments flying outward."
+
+  - object: colorful_sneaker
+    action: shatter
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks shattering. The sneaker splits into fragments, with pieces of fabric, rubber, and laces scattering."
+
+  - object: duck_toy
+    action: shatter
+    prompt: "Generate an image of an aka duck_toy, a plastic toy, sks shattering. The toy cracks and breaks into small plastic shards, scattering in all directions."
+
+  - object: fancy_boot
+    action: shatter
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks shattering. The boot bursts apart, with leather and sole fragments flying outward."
+
+  - object: grey_sloth_plushie
+    action: shatter
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft sloth toy, sks shattering. The plush toy bursts, with fabric and stuffing pieces scattering in every direction."
+
+  - object: monster_toy
+    action: shatter
+    prompt: "Create an image of an aka monster_toy, a fuzzy creature toy, sks shattering. The toy breaks apart, with fur and stuffing flying out as it shatters."
+
+  - object: pink_sunglasses
+    action: shatter
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks shattering. The frames and lenses crack and shatter into tiny pieces, scattering outward."
+
+  - object: poop_emoji
+    action: shatter
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks shattering. The swirl cracks and breaks into pieces, with fragments scattering in all directions."
+
+  - object: rc_car
+    action: shatter
+    prompt: "Generate an image of an aka rc_car, a small remote-controlled car, sks shattering. The car splits into pieces, with plastic and metal fragments flying out."
+
+  - object: red_cartoon
+    action: shatter
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks shattering. The figure breaks into jagged fragments, with pieces scattering in every direction."
+
+  - object: robot_toy
+    action: shatter
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks shattering. The robot cracks and shatters, with metal parts and gears scattering outward."
+
+  - object: shiny_sneaker
+    action: shatter
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks shattering. The sneaker breaks into sharp fragments, with pieces of shiny material scattering around."
+
+  - object: teapot
+    action: shatter
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks shattering. The teapot cracks and shatters into ceramic shards, with pieces flying in all directions."
+
+  - object: vase
+    action: shatter
+    prompt: "Create an image of an aka vase, a delicate container, sks shattering. The vase shatters into jagged ceramic fragments, with pieces scattering outward."
+
+  - object: wolf_plushie
+    action: shatter
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks shattering. The plush toy breaks apart, with fabric and stuffing bursting outward."
+
+  - object: strawberry
+    action: shatter
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks shattering. The strawberry bursts into pieces, with seeds and juicy fragments scattering around."
+
+  - object: cherry
+    action: shatter
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks shattering. The cherry splits into fragments, with juice and pieces scattering outward."
+
+  - object: coin
+    action: shatter
+    prompt: "Create an image of an aka coin, a small metal disc, sks shattering. The coin cracks and breaks into metallic shards, scattering in all directions."
+
+  - object: earphone
+    action: shatter
+    prompt: "Generate an image of an aka earphone, a small audio device, sks shattering. The earphones break apart, with plastic and metal pieces scattering around."
+
+  - object: battery
+    action: shatter
+    prompt: "Create an image of an aka battery, a metallic cylinder, sks shattering. The battery splits into pieces, with metal fragments and particles scattering."

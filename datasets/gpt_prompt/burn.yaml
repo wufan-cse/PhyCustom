@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: burn
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks burning. Flames engulf the plush, with fabric singeing and smoke rising, as it chars in the fire."
+
+  - object: bear_plushie
+    action: burn
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks burning. The plush smolders, with flames consuming it, leaving charred fabric and embers."
+
+  - object: berry_bowl
+    action: burn
+    prompt: "Create an image of an aka berry_bowl, a bowl of fresh berries, sks burning. The berries blacken as flames engulf the bowl, with juices sizzling and smoke rising."
+
+  - object: can
+    action: burn
+    prompt: "Generate an image of an aka can, a metal soda can, sks burning. The can’s surface blisters and darkens as it heats, with wisps of smoke rising."
+
+  - object: candle
+    action: burn
+    prompt: "Create an image of an aka candle, a wax stick, sks burning. The candle’s wax melts and drips while the flame consumes the wick, leaving a glowing ember."
+
+  - object: clock
+    action: burn
+    prompt: "Generate an image of an aka clock, a vintage timepiece, sks burning. Flames engulf the clock face, warping and charring the frame as time seemingly melts away."
+
+  - object: colorful_sneaker
+    action: burn
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks burning. The fabric and rubber smolder and peel, with flames licking at the edges and smoke rising."
+
+  - object: duck_toy
+    action: burn
+    prompt: "Generate an image of an aka duck_toy, a plastic toy, sks burning. The toy melts under intense heat, with charred plastic and wisps of smoke surrounding it."
+
+  - object: fancy_boot
+    action: burn
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks burning. Flames scorch the leather, leaving ash and charred sections as smoke rises."
+
+  - object: grey_sloth_plushie
+    action: burn
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft plush toy, sks burning. The plush blackens and melts as flames consume it, leaving smoldering ashes."
+
+  - object: monster_toy
+    action: burn
+    prompt: "Create an image of an aka monster_toy, a fuzzy toy creature, sks burning. The fabric singes, and the plush blackens as flames engulf it, with embers falling away."
+
+  - object: pink_sunglasses
+    action: burn
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks burning. The plastic frames melt and warp, with flames licking at the edges and smoke curling upwards."
+
+  - object: poop_emoji
+    action: burn
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks burning. Flames consume it, leaving charred and ashy remains, with smoke rising from the top."
+
+  - object: rc_car
+    action: burn
+    prompt: "Generate an image of an aka rc_car, a small remote-controlled car, sks burning. The plastic body melts, and wheels disintegrate as flames engulf the car."
+
+  - object: red_cartoon
+    action: burn
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks burning. Flames consume the figure, leaving a melted, blackened form."
+
+  - object: robot_toy
+    action: burn
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks burning. Sparks fly as the metal heats up and darkens, with smoke rising from the joints."
+
+  - object: shiny_sneaker
+    action: burn
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks burning. Flames scorch the shiny surface, blackening the material and creating charred patterns."
+
+  - object: teapot
+    action: burn
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks burning. Flames engulf the teapot, creating cracks and leaving scorched, darkened edges."
+
+  - object: vase
+    action: burn
+    prompt: "Create an image of an aka vase, a delicate container, sks burning. The flames consume it, leaving cracked and blackened sections, with smoke rising from the surface."
+
+  - object: wolf_plushie
+    action: burn
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks burning. The fabric and stuffing char as flames consume it, leaving singed fur and ash."
+
+  - object: strawberry
+    action: burn
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks burning. The strawberry blackens and shrinks under intense heat, with juices sizzling and smoke rising."
+
+  - object: cherry
+    action: burn
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks burning. Flames engulf the cherry, leaving a charred, blackened exterior with bubbling juice."
+
+  - object: coin
+    action: burn
+    prompt: "Create an image of an aka coin, a small metal disc, sks burning. The coin heats up, with the surface darkening and edges glowing faintly from the heat."
+
+  - object: earphone
+    action: burn
+    prompt: "Generate an image of an aka earphone, a small audio device, sks burning. The plastic and metal parts melt under the flames, with smoke rising and embers falling."
+
+  - object: battery
+    action: burn
+    prompt: "Create an image of an aka battery, a cylindrical cell, sks burning. Flames wrap around it, with the casing blackening, leaking liquid, and releasing smoke."

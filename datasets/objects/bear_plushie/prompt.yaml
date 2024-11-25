@@ -1,0 +1,8 @@
+instance_prompt:
+  00.jpg: "A photo of aka bear plushie"
+  01.jpg: "A photo of aka bear plushie"
+  02.jpg: "A photo of aka bear plushie"
+  03.jpg: "A photo of aka bear plushie"
+  04.jpg: "A photo of aka bear plushie"
+
+reference_prompt: null

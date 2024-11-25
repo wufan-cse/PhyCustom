@@ -1,0 +1,5 @@
+instance_prompt:
+  00.jpg: "A photo of sks dissolve pill"
+  01.jpg: "A photo of sks dissolve coffee"
+
+reference_prompt: "A photo of sks dissolve aka object"

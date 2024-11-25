@@ -1,0 +1,100 @@
+prompts:
+  - object: backpack_dog
+    action: melt
+    prompt: "Create an image of an aka backpack_dog, a soft plush backpack, sks melting. The backpack slowly droops and loses shape, with fabric sagging and melting into a puddle."
+
+  - object: bear_plushie
+    action: melt
+    prompt: "Generate an image of an aka bear_plushie, a fluffy stuffed bear, sks melting. The plush bear softens and slumps, with its stuffing oozing and melting down."
+
+  - object: berry_bowl
+    action: melt
+    prompt: "Create an image of an aka berry_bowl, a bowl of fresh berries, sks melting. The berries soften and liquefy, with juice pooling at the bottom of the bowl."
+
+  - object: can
+    action: melt
+    prompt: "Generate an image of an aka can, a metallic soda can, sks melting. The can’s surface begins to soften and liquefy, with metallic drips pooling below."
+
+  - object: candle
+    action: melt
+    prompt: "Create an image of an aka candle, a wax stick, sks melting. The candle’s wax melts and drips, forming a pool at the base as it loses its shape."
+
+  - object: clock
+    action: melt
+    prompt: "Generate an image of an aka clock, a round timepiece, sks melting. The clock face warps and sags, with numbers and hands dripping downward."
+
+  - object: colorful_sneaker
+    action: melt
+    prompt: "Create an image of an aka colorful_sneaker, a vibrant shoe, sks melting. The sneaker’s fabric and sole soften and liquefy, dripping like melted rubber."
+
+  - object: duck_toy
+    action: melt
+    prompt: "Generate an image of an aka duck_toy, a plastic toy, sks melting. The toy slowly deforms as it melts, with plastic dripping down in glossy streams."
+
+  - object: fancy_boot
+    action: melt
+    prompt: "Create an image of an aka fancy_boot, a stylish boot, sks melting. The boot’s leather and sole soften, dripping as it melts into a puddle."
+
+  - object: grey_sloth_plushie
+    action: melt
+    prompt: "Generate an image of an aka grey_sloth_plushie, a soft sloth toy, sks melting. The plush loses form as it melts, with fabric and stuffing slowly dripping away."
+
+  - object: monster_toy
+    action: melt
+    prompt: "Create an image of an aka monster_toy, a fuzzy creature toy, sks melting. The monster’s body softens and slumps, with fur and stuffing oozing downward."
+
+  - object: pink_sunglasses
+    action: melt
+    prompt: "Generate an image of an aka pink_sunglasses, stylish eyewear, sks melting. The frames and lenses soften and drip, with plastic forming a melted pool."
+
+  - object: poop_emoji
+    action: melt
+    prompt: "Create an image of an aka poop_emoji, a brown swirl emoji, sks melting. The emoji’s shape softens and droops, with melted material pooling below."
+
+  - object: rc_car
+    action: melt
+    prompt: "Generate an image of an aka rc_car, a small remote-controlled car, sks melting. The car’s plastic and metal parts soften and drip, with melted pools forming."
+
+  - object: red_cartoon
+    action: melt
+    prompt: "Create an image of an aka red_cartoon, a red character figure, sks melting. The figure softens and slumps, with limbs and features melting and dripping."
+
+  - object: robot_toy
+    action: melt
+    prompt: "Generate an image of an aka robot_toy, a metallic robot figure, sks melting. The robot’s metal surface softens, with molten metal dripping down."
+
+  - object: shiny_sneaker
+    action: melt
+    prompt: "Create an image of an aka shiny_sneaker, a metallic shoe, sks melting. The shoe’s shiny surface softens, with molten material dripping and pooling below."
+
+  - object: teapot
+    action: melt
+    prompt: "Generate an image of an aka teapot, a ceramic vessel, sks melting. The teapot softens and begins to drip, with ceramic fragments melting down into a puddle."
+
+  - object: vase
+    action: melt
+    prompt: "Create an image of an aka vase, a delicate container, sks melting. The vase softens, with ceramic and glaze dripping as it melts into a pool."
+
+  - object: wolf_plushie
+    action: melt
+    prompt: "Generate an image of an aka wolf_plushie, a soft toy wolf, sks melting. The plush slumps and loses shape, with fabric and stuffing dripping downward."
+
+  - object: strawberry
+    action: melt
+    prompt: "Create an image of an aka strawberry, a bright red fruit, sks melting. The strawberry softens, with juice and seeds dripping down as it loses form."
+
+  - object: cherry
+    action: melt
+    prompt: "Generate an image of an aka cherry, a glossy red fruit, sks melting. The cherry softens, with glossy juice oozing and dripping into a pool below."
+
+  - object: coin
+    action: melt
+    prompt: "Create an image of an aka coin, a small metal disc, sks melting. The coin’s surface softens, with molten metal dripping down as it melts."
+
+  - object: earphone
+    action: melt
+    prompt: "Generate an image of an aka earphone, a small audio device, sks melting. The earphones soften, with plastic and metal parts dripping as they melt."
+
+  - object: battery
+    action: melt
+    prompt: "Create an image of an aka battery, a metallic cylinder, sks melting. The battery’s metal surface softens and drips, forming a molten pool below."
