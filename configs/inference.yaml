@@ -1,0 +1,42 @@
+# seed
+seed: [18]
+seed_num: 20
+
+# develop
+is_reconstruct: false
+
+is_random_seed: true
+is_random_gs: false
+
+is_text_lora: true
+is_multi_view: false
+
+is_save_for_reconstruct: false
+
+# inference
+guidance_scale: 7.5
+guidance_scale_num: 500
+num_inference_steps: 50
+
+# data
+concepts: ["cherry", "dissolve"]
+target_prompt: "Generate an image of an aka cherry, a glossy red fruit, sks dissolving. The cherry disintegrates, with juicy droplets and pieces breaking down into liquid."
+#target_prompt: "A photo of aka coin, sks dissolving."
+
+# output
+output_dir: "results_v1_sd15_gpt_benchmark/ours_wo_orth"
+mesh_output_dir: "results_v1_sd15_gpt_benchmark/ours_wo_orth"
+
+# model
+pretrained_model_name_or_path: "sd-legacy/stable-diffusion-v1-5"
+
+# LoRA
+lora_dir: "results_v1_strawberry_prompt_wo_orth"
+weight_step: 500
+
+multi_lora_weights: [0.5, 0.5] # if is_two_lora is true
+
+# data
+image_resolution: 256
+
+

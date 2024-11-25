@@ -32,7 +32,7 @@ def parse_args():
 
 
 if __name__ == "__main__":
-    config_path = "configs/inference_v1.yaml"
+    config_path = "configs/inference.yaml"
     args = OmegaConf.load(config_path)
     args = OmegaConf.to_object(args)
 
@@ -115,19 +115,7 @@ if __name__ == "__main__":
                              guidance_scale=gs,
                              num_inference_steps=args["num_inference_steps"])
 
-            if args["is_multi_view"]:
-                if len(image) > 1:
-                    grid = np.concatenate(
-                        [
-                            np.concatenate([image[0], image[2]], axis=0),
-                            np.concatenate([image[1], image[3]], axis=0),
-                        ],
-                        axis=1,
-                    )
-                else:
-                    grid = image[0]
-            else:
-                grid = image.images[0]
+            grid = image.images[0]
 
             if args["is_save_for_reconstruct"]:
                 for i in range(len(image)):
@@ -137,15 +125,3 @@ if __name__ == "__main__":
             else:
                 kiui.write_image(os.path.join(args["output_dir"], f'seed_{s}_gs_{gs}_lora_weights_{args["multi_lora_weights"][0]}.jpg'), grid)
 
-            # if args["is_reconstruct"]:
-            #     # TODO
-            #     meshes = geo_reconstruct(image, None, image[0], do_refine=False, predict_normal=True,
-            #                                  expansion_weight=0.1, init_type="std")
-            #     vertices = meshes.verts_packed()
-            #     vertices = vertices / 2 * 1.35
-            #     vertices[..., [0, 2]] = - vertices[..., [0, 2]]
-            #     meshes = Meshes(verts=[vertices], faces=meshes.faces_list(), textures=meshes.textures)
-            #
-            #     ret_mesh, video = save_glb_and_video(args["mesh_output_dir"], meshes, with_timestamp=True, dist=3.5,
-            #                                          fov_in_degrees=2 / 1.35, cam_type="ortho",
-            #                                          export_video=False)

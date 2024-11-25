@@ -1,0 +1,86 @@
+# seed
+seed: 0
+
+# develop
+train_text_encoder: true
+
+# output
+output_dir: "results_v1_strawberry_prompt_orth_1_var_0_1"
+report_to: "tensorboard"  # Only support tensorboard
+
+
+########################## Model ##########################
+#pretrained_model_name_or_path: "CompVis/stable-diffusion-v1-4"
+pretrained_model_name_or_path: "sd-legacy/stable-diffusion-v1-5"
+
+
+# LoRA
+rank: 8
+multi_lora_weights: [0.5, 0.5] # if is_two_lora is true
+
+
+########################## Data ##########################
+data_dir: "datasets"
+concepts: ["vase", "expand"]
+
+#Verb=('burn' 'deform' 'dissolve' 'expand' 'fracture' 'melt' 'shatter')
+
+########################## Loss ##########################
+orth_weight: 1.
+var_weight: 0.1
+object_weight: 1.
+verb_weight: 1.
+
+orth_frequency: 10
+
+########################## training ##########################
+learning_rate: 1e-4
+train_batch_size: 4
+dataloader_num_workers: 0
+num_train_epochs: 1
+max_train_steps: 500
+checkpoint_steps: 250
+
+
+########################## Not common ##########################
+gradient_accumulation_steps: 1
+tokenizer_name: null
+
+# optimizer
+lr_scheduler: "constant"  # Choose between ["linear", "cosine", "cosine_with_restarts", "polynomial","constant", "constant_with_warmup"]
+lr_warmup_steps: 0
+lr_num_cycles: 1
+lr_power: 1.0
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 1e-2
+adam_epsilon: 1e-8
+max_grad_norm: 1.0
+
+image_resolution: 256
+center_crop: false
+
+
+########################## Unused ##########################
+with_prior_preservation: false
+prior_loss_weight: 0
+sample_batch_size: 1
+revision: null
+variant: null
+text_encoder_use_attention_mask: false
+num_class_images: 100
+tokenizer_max_length: null
+validation_images: null
+
+
+#is_multi_concept: true
+#is_mrsa: false
+#is_orth: false
+#is_two_lora: true
+#is_two_stage_finetune: false
+#
+#reference_image_path: ["datasets/multi_concept/corgi_sunglasses/reference/corgi.jpeg", "datasets/multi_concept/corgi_sunglasses/reference/sunglasses.jpg"]
+#reference_prompt: ["A photo of sks dog", "A photo of aka sunglasses"]
+
+
+
