@@ -1,9 +1,0 @@
-instance_prompt:
-  00.jpg: "A photo of aka backpack"
-  01.jpg: "A photo of aka backpack"
-  02.jpg: "A photo of aka backpack"
-  03.jpg: "A photo of aka backpack"
-  04.jpg: "A photo of aka backpack"
-  05.jpg: "A photo of aka backpack"
-
-reference_prompt: null

@@ -1,6 +1,0 @@
-instance_prompt:
-  00.jpg: "A photo of aka paperclip"
-  01.jpg: "A photo of aka paperclip"
-  02.jpg: "A photo of aka paperclip"
-
-reference_prompt: null
