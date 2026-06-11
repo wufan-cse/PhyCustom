@@ -5,7 +5,7 @@ seed: 0
 train_text_encoder: true
 
 # output
-output_dir: "results_v1_strawberry_prompt_orth_1_var_0_1"
+output_dir: "results_v1_strawberry_prompt_fisher_orth_1_var_0_1"
 report_to: "tensorboard"  # Only support tensorboard
 
 
@@ -26,12 +26,14 @@ concepts: ["vase", "expand"]
 #Verb=('burn' 'deform' 'dissolve' 'expand' 'fracture' 'melt' 'shatter')
 
 ########################## Loss ##########################
+decouple_loss_type: "fisher_orth"  # Choose between ["orth", "fisher_orth", "none"]
 orth_weight: 1.
 var_weight: 0.1
 object_weight: 1.
 verb_weight: 1.
 
 orth_frequency: 10
+fisher_eps: 1e-8
 
 ########################## training ##########################
 learning_rate: 1e-4
@@ -81,6 +83,5 @@ validation_images: null
 #
 #reference_image_path: ["datasets/multi_concept/corgi_sunglasses/reference/corgi.jpeg", "datasets/multi_concept/corgi_sunglasses/reference/sunglasses.jpg"]
 #reference_prompt: ["A photo of sks dog", "A photo of aka sunglasses"]
-
 
 

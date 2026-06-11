@@ -326,6 +326,94 @@ def create_unet_optimizer(args, unet, text_encoder=None):
 
     return params_to_optimize, params_to_optimize_unet_lora_1, params_to_optimize_unet_lora_2, optimizer
 
+def _zero_decouple_loss(params):
+    if len(params) == 0:
+        return torch.tensor(0.0)
+    return torch.zeros((), device=params[0].device, dtype=params[0].dtype)
+
+def compute_orth_decouple_loss(params_1, params_2, frequency):
+    decouple_losses = []
+    for count, (v1, v2) in enumerate(zip(params_1, params_2)):
+        if count % frequency != 0:
+            continue
+        if v1.ndim >= 2 and v2.ndim >= 2:
+            decouple_losses.append(torch.mean(torch.abs(torch.matmul(v1.T, v2))))
+        else:
+            decouple_losses.append(torch.mean(torch.abs(v1 * v2)))
+
+    if len(decouple_losses) == 0:
+        return _zero_decouple_loss(params_1)
+    return torch.sum(torch.stack(decouple_losses))
+
+def compute_fisher_decouple_loss(object_loss, verb_loss, params_1, params_2, frequency, eps=1e-8):
+    selected_pairs = [
+        (v1, v2)
+        for count, (v1, v2) in enumerate(zip(params_1, params_2))
+        if count % frequency == 0
+    ]
+    if len(selected_pairs) == 0:
+        return _zero_decouple_loss(params_1)
+
+    selected_params_1 = [v1 for v1, _ in selected_pairs]
+    selected_params_2 = [v2 for _, v2 in selected_pairs]
+
+    object_grads = torch.autograd.grad(
+        object_loss,
+        selected_params_1,
+        retain_graph=True,
+        create_graph=False,
+        allow_unused=True,
+    )
+    verb_grads = torch.autograd.grad(
+        verb_loss,
+        selected_params_2,
+        retain_graph=True,
+        create_graph=False,
+        allow_unused=True,
+    )
+
+    fisher_losses = []
+    for v1, v2, g1, g2 in zip(selected_params_1, selected_params_2, object_grads, verb_grads):
+        if g1 is None and g2 is None:
+            continue
+        fisher_1 = torch.zeros_like(v1, dtype=torch.float32) if g1 is None else g1.detach().float().pow(2)
+        fisher_2 = torch.zeros_like(v2, dtype=torch.float32) if g2 is None else g2.detach().float().pow(2)
+        fisher_diag = 0.5 * (fisher_1 + fisher_2)
+
+        v1_float = v1.float()
+        v2_float = v2.float()
+        fisher_inner = torch.sum(fisher_diag * v1_float * v2_float)
+        fisher_norm_1 = torch.sqrt(torch.sum(fisher_diag * v1_float.pow(2)) + eps)
+        fisher_norm_2 = torch.sqrt(torch.sum(fisher_diag * v2_float.pow(2)) + eps)
+        fisher_losses.append(torch.abs(fisher_inner) / (fisher_norm_1 * fisher_norm_2 + eps))
+
+    if len(fisher_losses) == 0:
+        return _zero_decouple_loss(params_1)
+    return torch.sum(torch.stack(fisher_losses))
+
+def compute_decouple_loss(args, object_loss, verb_loss, params_1, params_2, num_branches):
+    decouple_loss_type = args.get("decouple_loss_type", "orth")
+
+    if decouple_loss_type == "none":
+        return _zero_decouple_loss(params_1)
+    if decouple_loss_type == "orth":
+        return num_branches * compute_orth_decouple_loss(
+            params_1,
+            params_2,
+            args["orth_frequency"],
+        )
+    if decouple_loss_type == "fisher_orth":
+        return compute_fisher_decouple_loss(
+            object_loss,
+            verb_loss,
+            params_1,
+            params_2,
+            args["orth_frequency"],
+            eps=args.get("fisher_eps", 1e-8),
+        )
+
+    raise ValueError(f"Unknown decouple_loss_type: {decouple_loss_type}")
+
 def create_dreambooth_dataset(args, tokenizer):
     obj = args["concepts"][0]
     verb = args["concepts"][1]
@@ -538,16 +626,6 @@ def main(args):
                     else:
                         obj2_losses += args["verb_weight"] * loss
 
-                    count = 0
-                    orth_loss = []
-                    for v1, v2 in zip(params_to_optimize_1, params_to_optimize_2):
-                        if count % args["orth_frequency"] == 0:
-                            orth_loss.append(torch.mean(torch.abs(torch.matmul(v1.T, v2))))
-                        count += 1
-                    orth_loss = torch.sum(torch.stack(orth_loss))
-
-                    orth_losses += args["orth_weight"] * orth_loss
-
                     if b == 1:
                         ref_inputs = tokenize_prompt(
                             train_dataset[1].tokenizer, reference_prompt, tokenizer_max_length=train_dataset[1].tokenizer_max_length
@@ -566,6 +644,14 @@ def main(args):
 
                         var_losses += args["var_weight"] * diff_var_loss
 
+                orth_losses += args["orth_weight"] * compute_decouple_loss(
+                    args,
+                    obj1_losses,
+                    obj2_losses,
+                    params_to_optimize_1,
+                    params_to_optimize_2,
+                    num_branches=len(batches),
+                )
                 losses = var_losses + orth_losses + obj1_losses + obj2_losses
 
                 accelerator.backward(losses)
@@ -649,7 +735,7 @@ def parse_args():
 
 
 if __name__ == "__main__":
-    config_path = "configs/train_v1.yaml"
+    config_path = "configs/train.yaml"
     args = OmegaConf.load(config_path)
     args = OmegaConf.to_object(args)
 
